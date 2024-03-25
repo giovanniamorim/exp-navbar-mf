@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #23272f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1000; /* Para garantir que o navbar fique acima de outros elementos */
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-right: 5%;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo {
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+  }
+
+  .nav-search {
+    width: 240px;
+    height: 28px;
+    border-radius: 6px;
+    margin-top: -5%;
+  }
+  
